@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #000000;
 }
 
 a {
@@ -58,7 +58,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
-  background: rgba(55, 64, 85, 0.9);
+  background: rgba(68, 119, 240, 0.9);
 }
 
 #header.header-transparent {
@@ -66,7 +66,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(55, 64, 85, 0.9);
+  background: rgba(173, 178, 189, 0.9);
   padding: 15px 0;
 }
 
@@ -154,7 +154,7 @@ h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #414c64;
+  color: #665fc2;
 }
 
 .navbar .dropdown ul a i {
@@ -305,7 +305,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(45, 53, 69, 0.7);
+  background: rgb(0, 0, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -479,12 +479,9 @@ section {
 }
 
 
-.clients {
-  padding: 15px 0;
-  text-align: center;
-}
 
-.clients img {
+
+.img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -492,13 +489,13 @@ section {
   filter: grayscale(100);
 }
 
-.clients img:hover {
+.img:hover {
   filter: none;
   transform: scale(1.15);
 }
 
 @media (max-width: 768px) {
-  .clients img {
+  .img {
     max-width: 40%;
   }
 }
